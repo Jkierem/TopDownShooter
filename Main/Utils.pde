@@ -23,7 +23,9 @@ class Queue<T>{
   
 }
 
-class ScriptReader{}
+class ScriptReader{
+  
+}
 
 class Script{
   ArrayList<Wave> waves;
