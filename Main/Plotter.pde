@@ -343,7 +343,7 @@ class Plotter {
       stroke(#000000);
       ellipse(e.pos.x, e.pos.y, 10, 10);
     }
-    //drawCollider(e.collider);
+    drawCollider(e.collider);
   }
 
 

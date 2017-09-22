@@ -23,7 +23,7 @@ void setup(){
   engine = new PhysicsEngine(1,120);
   engine.addEntity(p);
   p.engine = engine;
-  engine.spawn(-1, engine.chooseRandomSide() );
+  engine.spawn(2, engine.chooseRandomSide() );
   /*for(int i = 0 ; i < 3 ; i++ )
     engine.spawn(i,engine.chooseRandomSide());*/
 }
